@@ -1,0 +1,56 @@
+body{
+    background:black;
+    color:#00ffff;
+    font-family:Arial, sans-serif;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    height:100vh;
+}
+
+.container{
+    width:700px;
+    border:2px solid cyan;
+    border-radius:15px;
+    padding:20px;
+    box-shadow:0 0 20px cyan;
+}
+
+h1{
+    text-align:center;
+}
+
+#chat{
+    height:350px;
+    overflow-y:auto;
+    border:1px solid cyan;
+    padding:10px;
+    margin-bottom:10px;
+}
+
+.user{
+    text-align:right;
+    margin:10px;
+}
+
+.jarvis{
+    text-align:left;
+    margin:10px;
+}
+
+.input-area{
+    display:flex;
+    gap:10px;
+}
+
+input{
+    flex:1;
+    padding:10px;
+}
+
+button{
+    padding:10px 20px;
+    cursor:pointer;
+}
